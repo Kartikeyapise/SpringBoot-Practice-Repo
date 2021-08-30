@@ -12,5 +12,5 @@ public class OwnerController {
     public String listVets(){
         return "owners/index";
     }
-    
+
 }

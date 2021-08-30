@@ -52,5 +52,6 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet2);
 
         System.out.println("Loaded Vets");
+        System.out.println(vetService.findById(1L));
     }
 }
